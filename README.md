@@ -1,31 +1,24 @@
-# Titanic-Classification
-
-## Bharat Data Science Intern
-
-Make a system which tells whether the person will be
-save from sinking. What factors were
-most likely lead to success-socio-economic
-status, age, gender and more.
-
 # Titanic Survival Prediction
 
-## Description:
-This project aims to predict the survival outcome of passengers aboard the Titanic using machine learning techniques. The dataset contains information about passengers' socio-economic status, age, gender, and other relevant factors. The goal is to build a model that accurately predicts whether a passenger survived the sinking of the Titanic.
+A supervised classification project exploring passenger survival outcomes from the Titanic dataset.
 
-## Approach:
+## Problem
 
-- Dataset: The Titanic dataset is used, which includes features like Pclass (socio-economic status), Sex, Age, SibSp (number of siblings/spouses aboard), and Parch (number of parents/children aboard).
+Use passenger information such as ticket class, age, sex, and family relationships to model survival labels in a historical dataset.
 
-- Preprocessing: Missing values are handled by imputing them with appropriate strategies. Categorical variables are converted into numerical form using label encoding. Relevant features are selected for the prediction model.
+## Workflow
 
-- Model Selection: Initially, a Decision Tree classifier is employed, but if the desired accuracy is not achieved, Random Forest and XGBoost algorithms can be tried as well.
+- Inspect the dataset and identify missing values.
+- Prepare numerical and categorical features.
+- Split observations into training and test sets.
+- Train a classification model.
+- Evaluate predictions with accuracy and class-sensitive metrics.
+- Review feature importance and potential overfitting.
 
-- Training and Evaluation: The chosen model is trained using the training data and evaluated using accuracy as the performance metric. Cross-validation can be performed to ensure robustness.
+## Models
 
-- Prediction: Once the model is trained and validated, it can be used to make predictions on new data. By inputting the passenger's details, such as Pclass, Sex, Age, SibSp, and Parch, the model will predict their survival outcome.
+The existing project notes Decision Tree as an initial model and mentions Random Forest and XGBoost as possible alternatives. Confirm which models are actually implemented in the notebook.
 
-## Results:
-The accuracy achieved using the chosen algorithm is recorded and displayed. If the accuracy is not satisfactory, alternative algorithms and techniques can be explored to improve performance.
+## Repository
 
-## Conclusion:
-This project provides a practical example of using data science techniques to predict survival outcomes in a historical context. By leveraging machine learning algorithms and the Titanic dataset, we can gain insights into the factors that influenced survival chances. The provided code can be utilized as a starting point for further exploration, feature engineering, and model enhancement to achieve higher accuracy in survival predictions.
+[View source code](https://github.com/Tanmoy-2001/Titanic_Classification_Task2)
